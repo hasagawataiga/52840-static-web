@@ -111,7 +111,7 @@ p {
 .sidebar .module:last-child {
 	margin-bottom: 50px;
 }
-.module__title {
+.module_title {
 	font-size: 22px;
 	text-transform: uppercase;
 	display: flex;
@@ -161,17 +161,17 @@ p {
 }
 
 /* Progress bar */
-.progress-bar,
-.progress-bar span {
+.progress_bar,
+.progress_bar span {
 	height: 6px;
 	background: #fff;
 	border-radius: 6px;
 	display: block;
 }
-.progress-bar span {
+.progress_bar span {
 	background: #263238;
 }
-.module--progress li {
+.progress li {
 	margin-bottom: 20px;
 }
 
@@ -179,18 +179,18 @@ p {
 .section:not(.last-child) {
 	margin-bottom: 50px;
 }
-.section__title {
+.section_title {
 	font-size: 28px;
 	text-transform: uppercase;
 	margin: 0 0 10px;
 }
-.section__content {
+.section_content {
 	padding-left: 90px;
 }
 .content .module:not(:first-child) {
 	margin-top: 50px;
 }
-.content .module__title {
+.content .module_title {
 	margin-bottom: 0;
 }
 
@@ -198,10 +198,10 @@ p {
 .lang {
 	justify-content: space-between;
 }
-.lang__content {
+.lang_content {
 	text-align: center;
 }
-.lang__content h4 {
+.lang_content h4 {
 	text-transform: uppercase;
 	margin-top: 15px;
 }
