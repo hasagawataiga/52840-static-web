@@ -112,12 +112,13 @@ p {
 	margin-bottom: 50px;
 }
 .module_title {
-	font-size: 22px;
+	font-size: 20px;
 	text-transform: uppercase;
 	display: flex;
 	align-items: center;
 	margin-bottom: 20px;
 }
+
 .module__meta {
 	font-size: 14px;
 	color: #90a4ae;
