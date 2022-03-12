@@ -63,7 +63,7 @@ p {
 .flex .middle {
 	align-items: center;
 }
-.flex .flex--1 {
+.flex .flex_1 {
 	flex: 1;
 }
 
