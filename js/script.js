@@ -1,4 +1,4 @@
-let books = [
+const books = [
     new Book(1, "Book1", "Alex"),
     new Book(2, "Book2", "Sarah"),
     new Book(3, "Book3", "Tom")
@@ -19,7 +19,7 @@ function addBook(){
 }
 
 function getBook(){
-    
+    elementsDebug();
     for(let i = 0; i < books.length; i++){
         let x = document.createElement("p");
         x.innerHTML = books[i].id + ". " + books[i].title + " - by " + books[i].author;
